@@ -11,7 +11,7 @@ import { FooterComponent } from "../footer/footer.component";
 
 @Component({
   selector: 'app-home',
-  imports: [RouterModule, ReactiveFormsModule, FooterComponent],
+  imports: [RouterModule, ReactiveFormsModule,],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })
