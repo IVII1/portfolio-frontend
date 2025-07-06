@@ -7,7 +7,7 @@ import { FooterComponent } from './footer/footer.component';
   selector: 'app-root',
   imports: [RouterOutlet, HeaderComponent, FooterComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'portfolio-frontend';

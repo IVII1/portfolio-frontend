@@ -1,14 +1,28 @@
 {
   "name": "portfolio-frontend",
   "version": "0.0.0",
+  "private": true,
+  "description": "This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.",
+  "homepage": "https://github.com/IVII1/portfolio-frontend#readme",
+  "bugs": {
+    "url": "https://github.com/IVII1/portfolio-frontend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IVII1/portfolio-frontend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "pretty": "prettier --write \"./**/*.{html,css,js,jsx,mjs,cjs,ts,tsx,json}\""
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "^20.0.6",
     "@angular/compiler": "^20.0.6",
@@ -38,6 +52,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "postcss": "^8.5.3",
+    "prettier": "^3.6.2",
     "typescript": "~5.8.3"
   }
 }

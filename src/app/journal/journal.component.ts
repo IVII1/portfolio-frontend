@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-journal',
   imports: [],
   templateUrl: './journal.component.html',
-  styleUrl: './journal.component.css'
+  styleUrl: './journal.component.css',
 })
-export class JournalComponent {
-
-}
+export class JournalComponent {}
